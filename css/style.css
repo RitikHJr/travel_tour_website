@@ -405,7 +405,7 @@ header.sticky {
     padding: 14px 5%;
   }
 
-  header .sticky {
+  header.sticky {
     padding: 7px 5%;
   }
 
@@ -462,7 +462,7 @@ header.sticky {
     font-weight: 400;
   }
 
-  .navbar .open {
+  .navbar.open {
     left: 0;
   }
 }
@@ -493,4 +493,25 @@ header.sticky {
 }
 
 @media (max-width: 600px) {
+  :root {
+    --h1-font: 3.5rem;
+    --h2-font: 2.1rem;
+  }
+  .home {
+    height: 85vh;
+  }
+}
+
+@media (max-width: 450px) {
+  header {
+    padding: 12px 3%;
+  }
+
+  header .sticky {
+    padding: 7px 3%;
+  }
+
+  section {
+    padding: 60px 3% 50px;
+  }
 }
